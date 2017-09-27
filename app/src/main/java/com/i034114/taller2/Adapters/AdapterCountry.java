@@ -40,6 +40,13 @@ public class AdapterCountry extends RecyclerView.Adapter<AdapterCountry.ViewHold
             holder.textViewName.setText(countryList.get(position).getName());
             holder.textViewCapital.setText(countryList.get(position).getCapital());
             holder.textViewAlphs.setText(countryList.get(position).getAlphacode());
+            holder.textViewSub.setText(countryList.get(position).getSubregion());
+            holder.textViewReg.setText(countryList.get(position).getRegion());
+            holder.textViewDom.setText(countryList.get(position).getDominio());
+            holder.textViewCod.setText(countryList.get(position).getCodigo());
+            holder.textViewNameA.setText(countryList.get(position).getNameA());
+            holder.textViewFro.setText(countryList.get(position).getFronteras());
+
         }
         @Override
         public int getItemCount() {
@@ -49,11 +56,24 @@ public class AdapterCountry extends RecyclerView.Adapter<AdapterCountry.ViewHold
             TextView textViewName;
             TextView textViewCapital;
             TextView textViewAlphs;
+            TextView textViewSub;
+            TextView textViewReg;
+            TextView textViewDom;
+            TextView textViewCod;
+            TextView textViewNameA;
+            TextView textViewFro;
+
             public ViewHolder(View item) {
                 super(item);
                 textViewName = (TextView) item.findViewById(R.id.id_tv_item_namecountry);
                 textViewCapital = (TextView) item.findViewById(R.id.id_tv_item_namecapital);
                 textViewAlphs = (TextView) item.findViewById(R.id.id_tv_item_nameabbreviation);
+                textViewSub =  (TextView) item.findViewById(R.id.id_tv_item_Subregion);
+                textViewReg = (TextView) item.findViewById(R.id.id_tv_item_Region);
+                textViewDom = (TextView) item.findViewById(R.id.id_tv_item_Dominio);
+                textViewCod = (TextView) item.findViewById(R.id.id_tv_item_Codigo);
+                textViewNameA = (TextView) item.findViewById(R.id.id_tv_item_NameA);
+                textViewFro = (TextView) item.findViewById(R.id.id_tv_item_Frontera);
             }
         }
     }

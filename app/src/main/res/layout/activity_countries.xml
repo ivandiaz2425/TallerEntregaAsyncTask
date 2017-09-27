@@ -25,7 +25,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Listar paises"
-            android:onClick="loadData"/>
+            android:padding="20dp"
+            android:layout_margin="15dp"
+            android:onClick="loadData"
+            android:background="@drawable/border3"
+            android:textColor="@android:color/primary_text_dark_nodisable"/>
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/id_rv_item"
