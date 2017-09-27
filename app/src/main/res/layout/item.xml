@@ -27,14 +27,14 @@
                 android:layout_height="wrap_content"
                 android:text="Pais:"
                 android:textStyle="bold"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textColor="@android:color/white"/>
             <TextView
                 android:id="@+id/id_tv_item_namecountry"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Colombia"
-                android:textSize="20sp"
+                android:textSize="19sp"
                 android:textColor="@android:color/black"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>
@@ -47,14 +47,14 @@
                 android:layout_height="wrap_content"
                 android:text="Dominio:"
                 android:textStyle="bold"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textColor="@android:color/white"/>
             <TextView
                 android:id="@+id/id_tv_item_Dominio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=".co"
-                android:textSize="20sp"
+                android:textSize="19sp"
                 android:textColor="@android:color/black"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>
@@ -67,14 +67,14 @@
                 android:layout_height="wrap_content"
                 android:text="Abreviatura:"
                 android:textStyle="bold"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textColor="@android:color/white"/>
             <TextView
                 android:id="@+id/id_tv_item_nameabbreviation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="COL"
-                android:textSize="20sp"
+                android:textSize="19sp"
                 android:textColor="@android:color/black"
                 android:layout_marginLeft="10dp"/>
 
@@ -89,14 +89,14 @@
                 android:layout_height="wrap_content"
                 android:text="Indicativo:"
                 android:textStyle="bold"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textColor="@android:color/white"/>
             <TextView
                 android:id="@+id/id_tv_item_Codigo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="57"
-                android:textSize="20sp"
+                android:textSize="19sp"
                 android:textColor="@android:color/black"
                 android:layout_marginLeft="10dp"/>
 
@@ -111,14 +111,14 @@
                 android:layout_height="wrap_content"
                 android:text="Capital:"
                 android:textStyle="bold"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textColor="@android:color/white"/>
             <TextView
                 android:id="@+id/id_tv_item_namecapital"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Bogota"
-                android:textSize="20sp"
+                android:textSize="19sp"
                 android:textColor="@android:color/black"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>
@@ -131,14 +131,14 @@
                 android:layout_height="wrap_content"
                 android:text="Nombres Alt:"
                 android:textStyle="bold"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textColor="@android:color/white"/>
             <TextView
                 android:id="@+id/id_tv_item_NameA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Republica de Colombia"
-                android:textSize="20sp"
+                android:textSize="19sp"
                 android:textColor="@android:color/black"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>
@@ -151,14 +151,14 @@
                 android:layout_height="wrap_content"
                 android:text="Region:"
                 android:textStyle="bold"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textColor="@android:color/white"/>
             <TextView
                 android:id="@+id/id_tv_item_Region"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Americas"
-                android:textSize="20sp"
+                android:textSize="19sp"
                 android:textColor="@android:color/black"
                 android:layout_marginLeft="10dp"/>
 
@@ -173,14 +173,14 @@
                 android:layout_height="wrap_content"
                 android:text="Subregion:"
                 android:textStyle="bold"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textColor="@android:color/white"/>
             <TextView
                 android:id="@+id/id_tv_item_Subregion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="South America"
-                android:textSize="20sp"
+                android:textSize="19sp"
                 android:textColor="@android:color/black"
                 android:layout_marginLeft="10dp"/>
 
@@ -195,14 +195,14 @@
                 android:layout_height="wrap_content"
                 android:text="Fronteras:"
                 android:textStyle="bold"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textColor="@android:color/white"/>
             <TextView
                 android:id="@+id/id_tv_item_Frontera"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="BRA"
-                android:textSize="20sp"
+                android:textSize="19sp"
                 android:textColor="@android:color/black"
                 android:layout_marginLeft="10dp"/>
 
