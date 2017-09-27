@@ -14,6 +14,7 @@ public class Country {
     private String Codigo;
     private String NameA;
     private String Fronteras;
+    private int Poblacion;
 
     public String getName() {
         return name;
@@ -86,4 +87,12 @@ public class Country {
     public void setFronteras(String fronteras) {
         Fronteras = fronteras;
     }
+
+    //public int getPoblacion() {
+        //return Poblacion;
+    //}
+
+    //public void setPoblacion(int poblacion) {
+        //Poblacion = poblacion;
+    //}
 }

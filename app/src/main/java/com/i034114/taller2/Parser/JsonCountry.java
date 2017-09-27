@@ -30,6 +30,7 @@ public class JsonCountry {
             country.setRegion(item.getString("region"));
             country.setSubregion(item.getString("subregion"));
             country.setFronteras(item.getString("borders"));
+            //country.setPoblacion(item.getInt("population"));
             countryList.add(country);
         }
         return countryList;

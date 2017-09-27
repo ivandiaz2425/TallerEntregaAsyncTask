@@ -46,7 +46,7 @@ public class AdapterCountry extends RecyclerView.Adapter<AdapterCountry.ViewHold
             holder.textViewCod.setText(countryList.get(position).getCodigo());
             holder.textViewNameA.setText(countryList.get(position).getNameA());
             holder.textViewFro.setText(countryList.get(position).getFronteras());
-
+            //holder.textViewPob.setText(countryList.get(position).getPoblacion());
         }
         @Override
         public int getItemCount() {
@@ -62,6 +62,7 @@ public class AdapterCountry extends RecyclerView.Adapter<AdapterCountry.ViewHold
             TextView textViewCod;
             TextView textViewNameA;
             TextView textViewFro;
+            //TextView textViewPob;
 
             public ViewHolder(View item) {
                 super(item);
@@ -74,6 +75,7 @@ public class AdapterCountry extends RecyclerView.Adapter<AdapterCountry.ViewHold
                 textViewCod = (TextView) item.findViewById(R.id.id_tv_item_Codigo);
                 textViewNameA = (TextView) item.findViewById(R.id.id_tv_item_NameA);
                 textViewFro = (TextView) item.findViewById(R.id.id_tv_item_Frontera);
+                //textViewPob = (TextView) item.findViewById(R.id.id_tv_item_Poblacion);
             }
         }
     }
